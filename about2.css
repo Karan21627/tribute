@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    position: relative;
+}
+.page{
+    width: 80vw;
+    background-color: whitesmoke;
+    height: 100vh;
+    margin-left: 10vw;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; /* Add border-radius for the bulge effect */
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: rgb(31, 162, 227);
+    width: 80vw;
+    height: 75vh;
+
+    
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 12%;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+    font-family: palatino;
+}
+
+.title {
+    margin-top: 30px;
+    margin-left: 10%;
+    color: whitesmoke;
+}
+
+.card {
+    z-index: 10;
+    top: 20%;
+    margin-left: 25vw;
+    width: 50vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    position: absolute;
+    background-color: #537188;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; /* Add border-radius for the bulge effect */
+}
+.about{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+}
+.about h1{
+    text-align: left;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.about p{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+
+}
+img{
+    margin-top: 41px;
+    width: 20vw;
+    height: auto;
+}
+.footer a{
+    color: whitesmoke;
+    font-size: xx-large;
+ }
+ .fa-instagram{
+    color:whitesmoke;
+    font-size: xx-large;
+ }
+ .fa-linkedin{
+    color:whitesmoke;
+    font-size: xx-large;
+ }
+ .fa-facebook{
+    color: whitesmoke;
+    font-size: xx-large;
+ }
+ .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #4682A9;
+    
+ }
